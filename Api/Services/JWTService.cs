@@ -13,8 +13,8 @@ namespace Api.Services
     {
         private readonly IConfiguration _configuration;
 
-        public JWTService(IConfiguration configuration,
-            SymmetricSecurityKey key)
+        public JWTService(IConfiguration configuration
+           )
         {
             this._configuration = configuration;
         }
